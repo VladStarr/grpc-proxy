@@ -52,6 +52,10 @@ func (c *rawCodec) Name() string {
 	return fmt.Sprintf("proxy>%s", c.parentCodec.Name())
 }
 
+func (c *rawCodec) String() string {
+	return fmt.Sprintf("proxy>%s", c.parentCodec.Name())
+}
+
 // protoCodec is a Codec implementation with protobuf. It is the default rawCodec for gRPC.
 type protoCodec struct{}
 
