@@ -68,3 +68,7 @@ func (protoCodec) Unmarshal(data []byte, v interface{}) error {
 func (protoCodec) Name() string {
 	return "proto"
 }
+
+func (protoCodec) String() string {
+	return "proto"
+}
