@@ -1,6 +1,6 @@
 # proxy
 --
-    import "github.com/vgough/grpc-proxy/proxy"
+    import "github.com/vladstarr/grpc-proxy/proxy"
 
 Package proxy provides a gRPC proxy library.
 

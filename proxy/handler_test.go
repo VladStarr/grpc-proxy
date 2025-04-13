@@ -22,9 +22,9 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/vgough/grpc-proxy/proxy"
-	pb "github.com/vgough/grpc-proxy/testservice/gen"
-	testservice "github.com/vgough/grpc-proxy/testservice/gen"
+	"github.com/vladstarr/grpc-proxy/proxy"
+	pb "github.com/vladstarr/grpc-proxy/testservice/gen"
+	testservice "github.com/vladstarr/grpc-proxy/testservice/gen"
 )
 
 const (
